@@ -2,29 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite AeroTech</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #001f3f;
+            background: linear-gradient(to bottom right, #001f3f, #003366);
             color: white;
             text-align: center;
-            padding-top: 50px;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 40px 20px;
         }
         h1 {
+            font-size: 2.5rem;
             color: #00aaff;
         }
         img {
-            border-radius: 20px;
-            margin-top: 20px;
+            border-radius: 15px;
+            margin: 20px auto;
+            display: block;
+            max-width: 300px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+        }
+        footer {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            font-size: 0.9rem;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
-    <h1>Elite AeroTech</h1>
-    <img src="logo.jpg" alt="My Photo" width="300">
-    <p>Supplying Aircraft Parts & Maintenance Services</p>
-    <p>Email: info@eliteaerotech.com | rfq@eliteaerotech.com</p>
-    <p>Website under construction</p>
+    <header>
+        <h1>Elite AeroTech</h1>
+        <img src="logo.jpg" alt="My Photo">
+        <p>Supplying Aircraft Parts & Maintenance Services</p>
+        <p>Email: <a href="mailto:info@eliteaerotech.com" style="color:#00aaff;">info@eliteaerotech.com</a> | 
+        <a href="mailto:rfq@eliteaerotech.com" style="color:#00aaff;">rfq@eliteaerotech.com</a></p>
+        <p>Website under construction</p>
+    </header>
+    <footer>
+        &copy; 2025 Elite AeroTech. All rights reserved.
+    </footer>
 </body>
 </html>
